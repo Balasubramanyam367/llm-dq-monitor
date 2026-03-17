@@ -1,0 +1,12 @@
+# Never commit these
+.env
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.great_expectations/uncommitted/
+airflow/logs/
+airflow/plugins/
+*.db
+*.sqlite
+.DS_Store
